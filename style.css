@@ -717,7 +717,7 @@
   }
 
 }
-@media screen and (min-width:435px) and (max-width:1024px) {
+@media screen and (min-width:435px) and (max-width:1020px) {
   * {
     margin: 0;
     padding: 0;
@@ -1023,7 +1023,7 @@
 
 }
 
-@media screen and (min-width:1024px) and (max-width:1440px){
+@media screen and (min-width:1020px) and (max-width:1440px){
   #container{
     height: 100vh;
     
