@@ -1031,7 +1031,7 @@
 
 
   #container {
-    height:135vh;
+    height:125vh;
     width: 100%;
     margin: auto;
     background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
@@ -1056,11 +1056,11 @@
   #goukimg {
    width: 50%;
     align-self: center;
-   margin:345px;
+   margin: 300px 990px;
   }
   #goukimg img {
     width: 100%;
-    height: 400px;
+    height: 350px;
   }
 
 
@@ -1125,8 +1125,7 @@
     font-size: 24px;
     color: rgb(236, 239, 239);
     width: 80%;
- 
-   border: ;
+
   }
   
   #info li img {
@@ -1163,7 +1162,7 @@
     height: 30vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
+    gap: 20px;
     
   }
 
@@ -1247,6 +1246,7 @@
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    margin-right: 20px;
   ;
   }
 
