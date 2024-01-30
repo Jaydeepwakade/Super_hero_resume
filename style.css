@@ -423,7 +423,7 @@
   width: 100%;
   border-radius: 30px;
 
-
+}
 
 @media screen and (min-width:200px) and (max-width:435px) {
   * {
@@ -1570,7 +1570,7 @@
   
 
 }
-}@media screen and (min-width:1440px) and (max-width:1980px){
+@media screen and (min-width:1440px) and (max-width:1980px){
 
   
 
