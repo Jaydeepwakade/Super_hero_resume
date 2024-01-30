@@ -9,12 +9,10 @@
   width: 100%;
   margin: auto;
   background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
-  background-size: 100vh;
-  background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
   align-items: end;
   cursor: url("./images/resize-17063411871470630661ball-removebg-preview\ \(1\).png"), pointer;
-
 
 }
 
@@ -1138,7 +1136,6 @@
     display: flex;
     flex-direction: column;
     align-items:  center;
-    justify-content: center;
     cursor: url("./images/resize-17063411871470630661ball-removebg-preview\ \(1\).png"), pointer;
 
   }
