@@ -1423,7 +1423,7 @@
   }
 
 }
-@media screen and (min-width:768px) and (max-width:1024px) {
+@media screen and (min-width:800px) and (max-width:1024px) {
   * {
     margin: 0;
     padding: 0;
