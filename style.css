@@ -1031,26 +1031,23 @@
 
 
   #container {
-    height: auto;
+    height:100vh;
     width: 100%;
     margin: auto;
     background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
     background-size: 100%;
     display: flex;
-   
-    align-items: end;
+   flex-direction: column;
     cursor: url("./images/resize-17063411871470630661ball-removebg-preview\ \(1\).png"), pointer;
 
   }
 
   #container>.main {
     width: 100%;
-    height: auto;
+    height: 100vh ;
     display: flex;
     flex-direction: column;
-   
-    justify-content: center;
-
+    border: 2px solid green;
   }
 
   #container img {
@@ -1061,7 +1058,7 @@
 
 
   #container>div h1 {
-    font-size: 40px;
+    font-size: 80px;
     font-weight: 900;
  
     height: auto;
@@ -1071,10 +1068,11 @@
   }
 
   .information {
-    height: 45vh;
+    height: 30vh;
     gap: 20px;
     display: flex;
     width: 100%;
+    border: 1px solid green;
  
   
   }
@@ -1091,7 +1089,7 @@
 
   #Name h3 {
     color: rgb(7, 42, 116);
-    font-size: 25px;
+    font-size: 30px;
   }
 
   #info {
@@ -1102,6 +1100,7 @@
     width: 50%;
     height: 30vh;
     gap: 5px;
+    border: 1px solid red;
     padding-top: 10px;
   
   }
@@ -1115,12 +1114,12 @@
     color: rgb(221, 105, 63);
     width: 25%;
     height: 0px;
-    font-size: 16px;
+    font-size: 24px;
   
   }
   
   #info li p {
-    font-size: 16px;
+    font-size: 24px;
     color: rgb(236, 239, 239);
     width: 100%;
    margin-left: 5px;
@@ -1133,7 +1132,7 @@
   }
   
   .boxes {
-    height: 50vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1157,7 +1156,7 @@
   }
 
   .boxes #powers {
-    height: 35vh;
+    height: 3vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -1166,8 +1165,7 @@
   .boxes #skills+div>div {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
     gap: 10px;
     color: white;
 
@@ -1185,8 +1183,8 @@
 
   .glow {
 
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
     background-color: #020223;
     top: 0;
     bottom: 0;
