@@ -1118,7 +1118,7 @@
   }
 
 }
-@media screen and (min-width:435px) and (max-width:770px) {
+@media screen and (min-width:435px) and (max-width:800px) {
   * {
     margin: 0;
     padding: 0;
@@ -1152,7 +1152,7 @@
 
   #container img {
     width: 100%;
-    height: 30px;
+    height: 300px;
     
   }
 
@@ -1162,7 +1162,7 @@
     font-weight: 900;
     margin: 20px;
     height: auto;
-    color: rgb(231, 116, 15);
+    color: rgb(98, 237, 18);
     text-align: center;
     font-family: "Luckiest Guy", cursive;
   }
