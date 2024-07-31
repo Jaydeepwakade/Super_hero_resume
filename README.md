@@ -1,4 +1,5 @@
 Superhero-Themed Resume
+
 This project is a unique and visually appealing resume designed with a superhero theme, built using HTML and CSS. It includes responsive design elements and simple animations to make the resume stand out. The rotating border color and cursor animation add a dynamic touch to the overall design.
 
 Features
